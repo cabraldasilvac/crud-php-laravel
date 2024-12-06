@@ -7,7 +7,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+<details>
+<summary><h3>About Laravel</h3></summary>
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
@@ -28,14 +29,16 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+</details>
 
+<hr>
 # Projeto CRUD com Laravel
 
 ### Este projeto é um CRUD com PHP Laravel
 
 Usando uma ferramenta escrita em Python para criar uma Base de Dados de users FAKE - Você pode acrescentar ou remover campos da DB.
 Ela cria um arquivo users.csv que pode ser importado para o Banco de Dados.
-[FAKE Users](https://www.github.com/cabraldasilvac/fakerUsers.py)
+[FAKE Users](https://github.com/cabraldasilvac/crud-php-laravel/blob/develop/public/assets/files_py/users.csv)
 
 ```Python
 fakerUsers.py
@@ -78,6 +81,6 @@ php artisan serve
 
 5 - Baixar o Banco de Dados users. Se preferir pode baixar o cod. em Python e rodar na sua máquina que ele vai gerar o arquivo users.csv
 
-[Arquivo » Python](https://github.com/cabraldasilvac?tab=repositories)
+[Arquivo » Python](https://github.com/cabraldasilvac/scripts.sh/blob/main/fakerUsers.py)
 
-[DB » users](https://github.com/cabraldasilvac?tab=repositories)
+[DB » users](https://github.com/cabraldasilvac/scripts.sh/blob/main/users.csv)
