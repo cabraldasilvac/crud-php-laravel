@@ -64,7 +64,7 @@ composer global require laravel/installer
 ```
 
 3 - Baixar o projeto do GitHub
-[Projeto »](https://github.com/cabraldasilvac?tab=repositories)
+[Projeto » GitHub clone](https://github.com/cabraldasilvac/crud-php-laravel)
 
 4 - Mudar as configurações do .env de acordo com as configurações do seu sistema.
 
