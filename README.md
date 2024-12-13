@@ -32,6 +32,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 </details>
 
 <hr>
+
 # Projeto CRUD com Laravel
 
 ### Este projeto é um CRUD com PHP Laravel
