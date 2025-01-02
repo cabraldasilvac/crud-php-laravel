@@ -2,7 +2,7 @@
 
 @section('content')
 
-<a href='{{ route('users.create') }}'>Create</a> | <a href='{{ route('home') }}'>HOME</a>
+<a href="{{ route('users.create') }}">Create</a> | <a href="{{ route('home') }}">HOME</a>
 <hr>
 
 <h2>Create</h2>
