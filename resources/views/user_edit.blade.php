@@ -2,7 +2,7 @@
 
 @section('content')
 
-<a href='{{ route('users.create') }}'>Create</a>  | <a href='{{ route('home') }}'>HOME</a>
+<a href="{{ route('users.create') }}">Create</a>  | <a href="{{ route('home') }}">HOME</a>
 <hr>
 
 <h2>Edit</h2>
@@ -11,8 +11,9 @@
     {{ session()->get('message')}}
 @endif
 
-<form action="{{ route('users.update',['user' => $user->id]) }}" method="POST">
+<form action="{{ route('users.update',['user' => (isset($user)) ? $user->id : '' ]) }}">
     @csrf
+    @method('PUT')
     <input type="hidden" name="_method" value="PUT">
     <input type="text" name="first_name" value="{{ $user->first_name }}">
     <input type="text" name="last_name" value="{{ $user->last_name }}">
